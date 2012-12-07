@@ -1,0 +1,55 @@
+body{
+	text-align: center;
+}
+h1{
+	font-family:微软雅黑;
+	font-size:33px;
+	color:#06C;
+}
+td{
+	width:110px;
+}
+#outfrm{
+	border: 1px dashed #09F;
+	border-radius: 9px;
+	width:500px;
+	height:500px;
+	margin:0 auto;
+}
+#outfrmB{
+	border: 1px dashed #09F;
+	border-radius: 9px;
+	width:850px;
+	height:850px;
+	margin:0 auto;
+}
+#selectbtn{
+	text-align: left;
+	width:100%;
+	margin:20px 0 0 20px;
+	float:left;
+	
+}
+#selectbtn input[type="submit"] {
+	border: 1px dashed #09F;
+	border-radius: 9px;
+	margin:0 5px 0 0;
+	width: 25%;
+	height: 30px;
+	border: 1px solid #999;
+	float:right;
+	cursor:pointer;
+}
+#selectbtn input[type="submit"]:hover {
+background: #1BA1E2;
+color: white;
+}
+
+#selectbtn form{
+	height:32px;
+	width:90%;
+	float:left;
+	border: 1px dashed #09F;
+	border-radius: 9px;
+	
+}
